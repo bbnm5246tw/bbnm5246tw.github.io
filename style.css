@@ -1,0 +1,66 @@
+body {
+    background-color: #AD8678;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+#list-btn {
+    margin-right: 5px;
+}
+
+#search-form {
+    position: relative;
+    align-items: center;
+    background-color: #737373;
+    border-radius: 10px;
+    padding-bottom: 17px;
+}
+
+#buttons-container {
+    position: absolute;
+    right: 0;
+}
+
+#buttons-container i {
+    cursor: pointer;
+    font-size: x-large;
+    background-color: transparent;
+    transition: lightgreen 0.3s;
+}
+
+#buttons-container i:hover {
+    background-color: #6B4603;
+}
+
+#searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#data-panel {
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+}
+
+.card {
+    max-height: 40%;
+    margin: 20px auto;
+}
+
+.card-footer {
+    background-color: #737373;
+}
+.list-group {
+    margin: 10px auto;
+    display: flex;
+}
+.list-group-item, .card-body {
+    background-color: darkgray;
+}
